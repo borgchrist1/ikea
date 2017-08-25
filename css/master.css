@@ -1,0 +1,187 @@
+@font-face {
+  font-family: verdana;
+  src: url("../verdana-1361513441.ttf");
+}
+
+@font-face {
+  font-family: verdanab;
+  src: url("../verdanab.ttf");
+}
+
+body{
+  margin: 0 auto;
+}
+
+
+
+.container{
+  background: url("../images/gw201708_desktop.jpg");
+  margin: 0 auto;
+  max-width: 1440px;
+  height: 810px;
+  font-family: verdanab;
+}
+
+.row{
+  display: flex;
+  /*align-items: center;*/
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0px;
+
+}
+
+.loggotyp{
+  /*float: left;*/
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.loggotyp img{
+  width: 140px;
+  height: 40px;
+}
+
+.player{
+  /*float:right;*/
+  width: 125px;
+  margin-right: 2px;
+  /*background: rgba(255, 255, 255, 0.4);*/
+}
+
+.player img{
+  padding: 0;
+  margin: 0;
+
+}
+
+.cover{
+  background: black;
+  padding: 0;
+  margin: 0;
+
+}
+
+button{
+  border: none;
+  background: none;
+  padding: 3px;
+  margin: 0px;
+}
+
+.controll{
+  margin: 0;
+  padding: 0;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.download{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.download img{
+  width: 120px;
+  padding-top: 8px;
+}
+
+
+
+.headline{
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.7rem;
+  line-height: 110%;
+  letter-spacing: -0.06667em;
+  padding: 0;
+
+}
+
+.headline h1{
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.heading{
+  margin-top: 270px;
+}
+
+.springBoard{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.wrapperSweden{
+  width: 320px;
+  height: 60px;
+  background: #407ab1;
+  margin-right: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  display: flex;
+}
+
+.wrapperContreys{
+  width: 320px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-left: 10px;
+  border-radius: 3px;
+  font-size: 14px;
+  display: flex;
+}
+
+#blue{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+#blur{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+#blue:visited{
+  color: white;
+  text-decoration: none;
+}
+
+#blue:hover{
+  color: white;
+  text-decoration: none;
+}
+
+#blur:visited{
+  color: black;
+  text-decoration: none;
+}
+
+#blur:hover{
+  color: black;
+  text-decoration: none;
+}
+footer{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+footer img{
+  margin: 0 auto;
+  width: 1440px;
+}
