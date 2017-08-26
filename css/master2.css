@@ -38,6 +38,10 @@ button{
   justify-content: center;
 }
 
+#small-logo{
+  height: 28px;
+}
+
 .controll2{
   float: right;
   margin-top: 62px;
