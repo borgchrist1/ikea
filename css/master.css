@@ -183,5 +183,5 @@ footer{
 
 footer img{
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
 }
