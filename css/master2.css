@@ -38,6 +38,17 @@ button{
   justify-content: center;
 }
 
+.controll2{
+  float: right;
+  margin-top: 62px;
+  margin-right: 178px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .nextPage{
   clear: both;
   width: 100%;
