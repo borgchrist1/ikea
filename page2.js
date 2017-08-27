@@ -7,7 +7,7 @@ let nextButton = document.querySelector('#next');
 let stopButton = document.querySelector('#play');
 let button = document.querySelector('#playButton')
 
-audio = new Audio('Musik/song3.mp3');
+audio = new Audio('Musik/song2.mp3');
 
 nextButton.addEventListener('click', (event) =>{
   var test = audio.src.match(/\d+/g);
