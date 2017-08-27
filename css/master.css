@@ -185,3 +185,16 @@ footer img{
   margin: 0 auto;
   max-width: 1440px;
 }
+
+@media screen and (max-width: 1060px)
+{
+  .headline{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 110%;
+    letter-spacing: -0.06667em;
+    padding: 0;
+
+}
