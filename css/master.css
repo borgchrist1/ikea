@@ -15,7 +15,8 @@ body{
 
 
 .container{
-  background: url("../images/gw201708_desktop.jpg");
+  /*background: url("../images/gw201708_desktop.jpg");*/
+  background: url("http://www.ikea.com/ext/ikeagateway/statics/gw201708_desktop.jpg");
   margin: 0 auto;
   max-width: 1440px;
   height: 810px;
